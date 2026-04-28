@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="pt">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>SmartTable · Cozinha</title>
+    <link rel="stylesheet" href="assets/style.css" />
+  </head>
+
+  <body data-page="cozinha">
+    <main class="page">
+      <header class="topbar">
+        <div class="brand">
+          <div class="logo">C</div>
+          <div>
+            <small>Software independente</small>
+            <h1>Tablet da Cozinha</h1>
+            <p>Receção e preparação dos pedidos.</p>
+          </div>
+        </div>
+
+        <nav class="nav">
+          <a class="btn secondary" href="index.html">Início</a>
+          <button class="btn secondary" type="button" onclick="loadOps()">Atualizar</button>
+        </nav>
+      </header>
+
+      <section class="panel">
+        <h2 class="panel-title">Fila de Pedidos</h2>
+        <div id="ordersList" class="grid"></div>
+        <div id="notice" class="muted"></div>
+      </section>
+    </main>
+
+    <script src="assets/app.js"></script>
+  </body>
+</html>
+
