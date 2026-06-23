@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="htdocs/assets/logo.png" alt="SmartTable Logo" width="110" />
+<img src="logo.png" alt="SmartTable Logo" width="110" />
 
 # SmartTable
 
